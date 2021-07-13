@@ -1,6 +1,7 @@
 /*----------------------------------------------------
                     THE FIXES
 ------------------------------------------------------*/
+
 /* Watermark */
 #app-mount .titleBar-AC4pGV .wordmark-2iDDfm svg {
     width: 0;
@@ -15,10 +16,12 @@
     top: 4px;
     width: 135px;
 }
+
 /* Normal close button */
 .winButtonClose-1HsbF-:hover {
     background-color: var(--button-red-hover);
 }
+
 /* Status Picker thing */
 #app-mount #status-picker #status-picker-online.focused-3afm-j {
     background-color: var(--nord-green);
@@ -47,6 +50,7 @@
 .clearStatusButton-1Mxs1q:hover {
     color: var(--text-primary-bacground) !important;
 }
+
 /* Status Colors */
 #app-mount .wrapper-3t9DeA rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
 #app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-streaming)"] {fill: var(--nord-pink)}
@@ -76,19 +80,23 @@
 .container-1r6BKw [fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     fill: var(--nord-dark5);
 }
+
 /* Delete Message Icon Style */
 .dangerous-2r8KxV > svg > path {
     fill: var(--nord-red);
 }
+
 /* New message bubble Style */
 .numberBadge-2s8kKX {
     background-color: var(--nord-red) !important;
     color: var(--header-primary);
 }
+
 /* Sharing Screen bubble Style */
 .iconBadge-3qSJIw {
     background-color: var(--nord-dark3);
 }
+
 /* Live Icon Style */
 .live-vBWnV6.liveSmall-1dy2uA.textBadge-1iylP6.base-PmTxvP.liveShapeRound-32u79- {
     background-color: var(--nord-red) !important;
@@ -98,6 +106,7 @@
     background-color: var(--nord-red) !important;
     color: var(--text-primary-background) !important;
 }
+
 /* Add Friend Button Style */
 .item-3HknzM.item-PXvHYJ[aria-controls=ADD_FRIEND-tab]{
     background-color: var(--nord-green) !important;
@@ -113,6 +122,7 @@
 .item-3HknzM.item-PXvHYJ[aria-controls=ADD_FRIEND-tab][aria-selected=true]:hover {
     background-color: var(--background-modifier-hover) !important;
 }
+
 /* Stage Channel style */
 .iconLive-AtZKgD {
     color: var(--nord-green) !important;
@@ -123,6 +133,7 @@
 .colorStatusGreen-2saF4_ {
     color: var(--nord-green);
 }
+
 /* Replace the green arrows on the join-messages */
 .icon-2Po-VO {
     width: 0px;
@@ -131,6 +142,7 @@
     content: "➜";
     color: var(--nord-green);
 }
+
 /* Boost in server settings */
 .icon-3Povsy {
     fill: var(--nord-pink);
@@ -139,10 +151,12 @@
     color: #fff!important;
     background-color: var(--nord-pink)!important;
 }
+
 /* Protip */
 #app-mount .pro-1T8RK7.base-1x0h_U.size12-3cLvbJ {
     color: var(--nord-green) !important;
 }
+
 /* Separators */
 .theme-dark .inset-3sAvek {
     background-color: var(--background-secondary) !important;
@@ -150,6 +164,7 @@
 .theme-dark .separator-XqIyoz {
     background-color: var(--background-secondary) !important;
 }
+
 /* Buttons in the account settings part */
 #app-mount .radioBar-bMNUI-[style*="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
     border-left: 3px solid var(--nord-green) !important;
@@ -183,6 +198,7 @@
 .side-8zPYf6 .item-PXvHYJ[aria-controls="DELETE-tab"], .side-8zPYf6 .item-PXvHYJ[aria-controls="logout-tab"] {
     color: var(--nord-red) !important;
 }
+
 /* Mention thing */
 .wrapper-3WhCwL {
     color: var(--text-mention) !important;
@@ -207,6 +223,7 @@
 .mention-1f5kbO {
     background-color: var(--nord-red) !important;
 }
+
 /* Links */
 .lookLink-9FtZy-.colorLink-35jkBc {
     color: var(--nord-primary);
@@ -220,6 +237,7 @@
 .colorLink-2vG20E {
     color: var(--nord-primary);
 }
+
 /* Video file thing */
 #app-mount .mediaBarGrabber-1FqnbN, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl:after, .mediaBarProgress-1xaPtl:before {
     background-color: var(--nord-cyan);
@@ -227,14 +245,17 @@
 #app-mount .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN {
     background-color: var(--nord-cyan);
 }
+
 /* That invite play thing */
 .attachButtonPlay-3iJ0mf {
     color: var(--nord-green);
 }
+
 /* Reactions */
 .reaction-1hd86g.reactionMe-wv5HKu {
     border-color: var(--nord-primary);
 }
+
 /* Gif favorite */
 .gifFavoriteButton-3Zycl7:hover {
     color: var(--nord-yellow);
