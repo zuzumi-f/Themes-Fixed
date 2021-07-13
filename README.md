@@ -1,6 +1,6 @@
 # Themes-fixed
 
-Some themes i fix
+None of the themes are mine they are just fix for outdated ver.
 
 
 ## Midnightmars
