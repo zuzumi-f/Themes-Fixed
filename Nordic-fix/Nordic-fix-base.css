@@ -269,3 +269,7 @@
 #app-mount .contentWrapper-SvZHNd {
     background-color: var(--background-secondary) !important;
 }
+/* Selected */
+.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
+    background-color: var(--background-modifier-selected);
+}
