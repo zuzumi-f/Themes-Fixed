@@ -304,11 +304,10 @@
     content: "MIDNIGHT MARS";
     position: absolute;
     font-family: "Fredoka One";
-    background: -webkit-gradient(linear, right top, left top, color-stop(60%, #C779D0), to(#FEAC5E));
-    background-image: linear-gradient(270deg, #C779D0 60%, #FEAC5E) !important;
+    background: linear-gradient(270deg, #C779D0 50%, #FEAC5E);
+    animation: Gradient 4s ease infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: uh-oh 1000s linear infinite;
     background-clip: text;
     background-size: 200% 200%;
     font-size: 13px;
@@ -317,11 +316,8 @@
     left: 29px;
     width: 135px;
 }
-@keyframes uh-oh {
-    to {
-        background-position: 26000px;
-    }
-}
+@keyframes Gradient { 0%{background-position:0 50%} 50%{background-position:100% 50%} 100%{background-position:0 50%} }
+
 #app-mount .titleBar-AC4pGV .winButton-iRh8-Z {
     background: var(--icon) 8px 0/13px 15px no-repeat;
     opacity: 0.75;
