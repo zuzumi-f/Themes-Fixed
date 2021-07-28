@@ -1568,3 +1568,11 @@ div#PENDING-tab div.peopleList-3c4jOR.auto-Ge5KZx.scrollerBase-289Jih {
 #app-mount .closeButton-1tv5uR:hover {
     background-color: var(--background-secondary-alt);
 }
+/* Threads */
+.threadSidebar-1o3BTy {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 8px;
+    margin-left: 0px;
+    border-radius: 6px;
+}
