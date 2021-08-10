@@ -1434,13 +1434,6 @@ div#PENDING-tab div.peopleList-3c4jOR.auto-Ge5KZx.scrollerBase-289Jih {
     border-left: 3px solid hsla(12, 83%, 70%, 1) !important;
 }
 
-.colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS {
-    color: var(--border-hover-color);
-}
-.colorDanger-2qLCe1.focused-3afm-j {
-    background-color: var(--border-hover-color);
-}
-
 /* Invite fix */
 #app-mount .lookOutlined-3sRXeN.colorGreen-29iAKY {
     color: var(--midnightmars-green);
