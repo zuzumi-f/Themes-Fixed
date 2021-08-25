@@ -759,7 +759,7 @@
     background-color: var(--background-primary);
 }
 
-div#ADD_FRIEND-tab.peopleColumn-29fq28, div#PENDING-tab.peopleColumn-29fq28 {
+div#add_friend-tab.peopleColumn-29fq28, div#PENDING-tab.peopleColumn-29fq28 {
     margin-top: 8px;
 }
 div#PENDING-tab div.peopleList-3c4jOR.auto-Ge5KZx.scrollerBase-289Jih {
@@ -1443,15 +1443,15 @@ div#PENDING-tab div.peopleList-3c4jOR.auto-Ge5KZx.scrollerBase-289Jih {
     margin-right: 0;
   }
 /* Add Friend Button Style */
-.item-3HknzM.item-PXvHYJ[aria-controls=ADD_FRIEND-tab]{
+.item-3HknzM.item-PXvHYJ[aria-controls=add_friend-tab]{
     background-color: var(--midnightmars-green) !important;
     color: #fff !important;
 }
-.item-3HknzM.item-PXvHYJ[aria-controls=ADD_FRIEND-tab][aria-selected=true] {
+.item-3HknzM.item-PXvHYJ[aria-controls=add_friend-tab][aria-selected=true] {
     background-color: transparent !important;
     color: var(--midnightmars-green) !important;
 }
-.item-3HknzM.item-PXvHYJ[aria-controls=ADD_FRIEND-tab][aria-selected=true]:hover {
+.item-3HknzM.item-PXvHYJ[aria-controls=add_friend-tab][aria-selected=true]:hover {
     background-color: var(--background-modifier-hover) !important;
 }
 .sectionHeader-20RGqu {
