@@ -108,18 +108,18 @@
 }
 
 /* Add Friend Button Style */
-.item-3HknzM.item-PXvHYJ[aria-controls=ADD_FRIEND-tab]{
+.item-3HknzM.item-PXvHYJ[aria-controls=add_friend-tab]{
     background-color: var(--nord-green) !important;
     color: var(--text-primary-background) !important;
 }
-.item-3HknzM.item-PXvHYJ[aria-controls=ADD_FRIEND-tab]:hover{
+.item-3HknzM.item-PXvHYJ[aria-controls=add_friend-tab]:hover{
     background-color: var(--button-green-hover) !important;
 }
-.item-3HknzM.item-PXvHYJ[aria-controls=ADD_FRIEND-tab][aria-selected=true] {
+.item-3HknzM.item-PXvHYJ[aria-controls=add_friend-tab][aria-selected=true] {
     background-color: transparent !important;
     color: var(--nord-green) !important;
 }
-.item-3HknzM.item-PXvHYJ[aria-controls=ADD_FRIEND-tab][aria-selected=true]:hover {
+.item-3HknzM.item-PXvHYJ[aria-controls=add_friend-tab][aria-selected=true]:hover {
     background-color: var(--background-modifier-hover) !important;
 }
 
