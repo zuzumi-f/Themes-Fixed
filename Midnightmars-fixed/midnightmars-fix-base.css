@@ -1243,7 +1243,7 @@ div#PENDING-tab div.peopleList-3c4jOR.auto-Ge5KZx.scrollerBase-289Jih {
     --rs-invisible-color: var(--status-offline-invisible); /* Colour for invisible status - Note: this will only show for your own invisibility */
     --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
   
-    --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+    --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
 
 #app-mount .containerDefault--pIXnN .wrapper-2jXpOf,
