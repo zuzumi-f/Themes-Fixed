@@ -1434,6 +1434,10 @@ div#PENDING-tab div.peopleList-3c4jOR.auto-Ge5KZx.scrollerBase-289Jih {
     border-left: 3px solid hsla(12, 83%, 70%, 1) !important;
 }
 
+/* Large text Friendlist */
+.userInfo-2zN2z8 {
+    max-width: calc(100% - 90px);
+}
 /* Invite fix */
 #app-mount .lookOutlined-3sRXeN.colorGreen-29iAKY {
     color: var(--midnightmars-green);
