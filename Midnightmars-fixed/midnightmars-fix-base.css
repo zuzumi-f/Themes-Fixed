@@ -229,18 +229,15 @@
 #app-mount .guilds-1SWlCJ .scroller-1Bvpku .folder-1hbNCn[aria-expanded=true] {
     background-color: var(--midnightmars-primary);
 }
-#app-mount .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U {
+
+.circleIconButton-1XqULR {
+    color: var(--midnightmars-green);
     background-color: var(--midnightmars-primary-alt);
 }
-#app-mount .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U svg path {
-    color: var(--midnightmars-green);
-}
-#app-mount .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U:hover {
+.circleIconButton-1XqULR.selected-2jcQaY {
     background-color: var(--midnightmars-green);
 }
-#app-mount .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U:hover svg path {
-    color: #fff;
-}
+
 #app-mount .guilds-1SWlCJ .childWrapper-anI2G9 {
     background-color: var(--midnightmars-primary-alt);
 }
