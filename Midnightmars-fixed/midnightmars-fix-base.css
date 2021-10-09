@@ -744,7 +744,7 @@
 #app-mount .nowPlayingColumn-2sl4cE .scroller-2ZPeAD {
     background-color: var(--background-secondary);
     margin-top: 8px;
-    margin-left: calc(var(--separation-padding) - 2px);
+    margin-left: 0;
 }
 #app-mount .nowPlayingColumn-2sl4cE .itemCard-v9viV7 {
     background-color: var(--background-secondary-alt);
@@ -753,6 +753,10 @@
     background-color: var(--background-tertiary);
 }
 #app-mount .nowPlayingColumn-2sl4cE .itemCard-v9viV7 .section-2gLsgF {
+    background-color: var(--background-primary);
+}
+
+#app-mount .header-1-dBpZ {
     background-color: var(--background-primary);
 }
 
