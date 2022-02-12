@@ -1361,7 +1361,7 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-#app-mount .interactiveSelected-29CP8y {
+#app-mount .interactive-iyXY_x {
     padding-left: 4px;
 }
 #app-mount .channel-1Shao0 div .avatar-6qzftW {
@@ -1501,6 +1501,7 @@
 /* Large text Friendlist */
 .userInfo-2WpsYG {
     max-width: calc(100% - 90px);
+    align-items: center;
 }
 /* Invite fix */
 #app-mount .lookOutlined-3yKVGo.colorGreen-3y-Z79 {
