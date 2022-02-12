@@ -1312,7 +1312,7 @@
     position: absolute;
     border-radius: 25px;
     top: 1px;
-    left: 2px;
+    left: 0;
     bottom: 1px;
     background-color: var(--midnightmars-accent);
     height: calc(100% - 2px);
@@ -1358,6 +1358,11 @@
 #app-mount .channel-1Shao0 {
     max-width: 100%;
     margin-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#app-mount .interactiveSelected-29CP8y {
+    padding-left: 4px;
 }
 #app-mount .channel-1Shao0 div .avatar-6qzftW {
     margin-left: 8px;
