@@ -108,6 +108,55 @@
     --deprecated-quickswitcher-input-placeholder: var(--text-muted);
 }
 
+/* Purple */
+[data-popout-root], html {
+    --brand-experiment-100: hsl(283, 77.8%, 98.2%);
+    --brand-experiment-130: hsl(289, 87.5%, 96.9%);
+    --brand-experiment-160: hsl(288, 84.6%, 94.9%);
+    --brand-experiment-200: hsl(289, 83.3%, 92.9%);
+    --brand-experiment-230: hsl(289, 87%, 91%);
+    --brand-experiment-260: hsl(288, 86.2%, 88.6%);
+    --brand-experiment-300: hsl(288, 86.1%, 85.9%);
+    --brand-experiment-330: hsl(288, 85.1%, 81.6%);
+    --brand-experiment-360: hsl(288, 86.1%, 77.5%);
+    --brand-experiment-400: hsl(288, 86.1%, 71.8%);
+    --brand-experiment-430: hsl(288, 85.7%, 69.8%);
+    --brand-experiment-460: hsl(288, 85.5%, 67.5%);
+    --brand-experiment: hsl(288, 87%, 65%);
+    --brand-experiment-500: hsl(288, 85.6%, 64.7%);
+    --brand-experiment-530: hsl(288, 66.7%, 58.8%);
+    --brand-experiment-560: hsl(288, 51.4%, 52.4%);
+    --brand-experiment-600: hsl(288, 46.7%, 44.1%);
+    --brand-experiment-630: hsl(288, 46.7%, 38.2%);
+    --brand-experiment-660: hsl(288, 47.1%, 33.3%);
+    --brand-experiment-700: hsl(288, 47%, 25.9%);
+    --brand-experiment-730: hsl(288, 46.8%, 24.3%);
+    --brand-experiment-760: hsl(287, 46.9%, 22.2%);
+    --brand-experiment-800: hsl(288, 47.5%, 19.4%);
+    --brand-experiment-830: hsl(288, 47.4%, 14.9%);
+    --brand-experiment-860: hsl(288, 46.9%, 9.6%);
+    --brand-experiment-900: hsl(287, 50%, 3.1%);
+    --brand-experiment-05a: hsla(288, 85.6%, 64.7%, 0.05);
+    --brand-experiment-10a: hsla(288, 85.6%, 64.7%, 0.1);
+    --brand-experiment-15a: hsla(288, 85.6%, 64.7%, 0.15);
+    --brand-experiment-20a: hsla(288, 85.6%, 64.7%, 0.2);
+    --brand-experiment-25a: hsla(288, 85.6%, 64.7%, 0.25);
+    --brand-experiment-30a: hsla(288, 85.6%, 64.7%, 0.3);
+    --brand-experiment-35a: hsla(288, 85.6%, 64.7%, 0.35);
+    --brand-experiment-40a: hsla(288, 85.6%, 64.7%, 0.4);
+    --brand-experiment-45a: hsla(288, 85.6%, 64.7%, 0.45);
+    --brand-experiment-50a: hsla(288, 85.6%, 64.7%, 0.5);
+    --brand-experiment-55a: hsla(288, 85.6%, 64.7%, 0.55);
+    --brand-experiment-60a: hsla(288, 85.6%, 64.7%, 0.6);
+    --brand-experiment-65a: hsla(288, 85.6%, 64.7%, 0.65);
+    --brand-experiment-70a: hsla(288, 85.6%, 64.7%, 0.7);
+    --brand-experiment-75a: hsla(288, 85.6%, 64.7%, 0.75);
+    --brand-experiment-80a: hsla(288, 85.6%, 64.7%, 0.8);
+    --brand-experiment-85a: hsla(288, 85.6%, 64.7%, 0.85);
+    --brand-experiment-90a: hsla(288, 85.6%, 64.7%, 0.9);
+    --brand-experiment-95a: hsla(288, 85.6%, 64.7%, 0.95);
+}
+
 #app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ {
     background-color: var(--midnightmars-accent);
 }
@@ -1258,6 +1307,17 @@
     left: 2px;
     bottom: 1px;
 }
+.interactiveSelected-29CP8y::before {
+    content: "";
+    position: absolute;
+    border-radius: 25px;
+    top: 1px;
+    left: 2px;
+    bottom: 1px;
+    background-color: var(--midnightmars-accent);
+    height: calc(100% - 2px);
+    width: 4px;
+}
 #app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG:not(.modeSelected-3DmyhH):not(.modeConnected-NrO4cP) .content-1gYQeQ:hover,
 #app-mount .channel-1Shao0:not(.selected-1-Z6gm) .content-1gYQeQ:hover {
     background: var(--indicator-hovered);
@@ -1297,6 +1357,7 @@
 }
 #app-mount .channel-1Shao0 {
     max-width: 100%;
+    margin-left: 0;
 }
 #app-mount .channel-1Shao0 div .avatar-6qzftW {
     margin-left: 8px;
